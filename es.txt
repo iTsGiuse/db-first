@@ -1,0 +1,16 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti 
+delle auto usate messe in vendita da un concessionario.
+
+
+    ID --> INT PRIMARY KEY AUTO_INCREMENT,
+    Brand --> VARCHAR(50),
+    Model --> VARCHAR(50),
+    ProductionYear --> INT,
+    Mileage --> FLOAT,
+    Price --> DECIMAL(10, 2),
+    Color --> VARCHAR(50),
+    FuelType --> VARCHAR(20),
+    Transmission --> VARCHAR(20),
+    PreviousOwners --> INT,
+    Description --> TEXT,
+    Image --> VARCHAR(255)
